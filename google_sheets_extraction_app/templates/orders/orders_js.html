@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        window.setInterval(refreshOrders, 5000);
+
+        function refreshOrders() {
+            $.get('http://127.0.0.1:8000/orders/', appendToTable)
+            function appendToTable(response) {
+                let table = $('table#orders');
+                table.find('tr:gt(1)').remove();
+                response.forEach(el => {
+                    table.append($('<tr><td>' + el.excel_id + '</td><td>' + el.order_id + '</td><td>' + el.price_usd + '</td><td>' + el.price_uah + '</td><td align="center">' + el.delivery_date + '</td><td align="center">' + el.msg_status_text + '</tr></tr>'))
+        })
+        }
+        }
+    </script>
+</head>
+<body>
+<h1 align="center">Orders</h1>
+<table id="orders" border="1" align="center" width="60%">
+    <tr>
+        <td colspan="6" align="right"> Курс Monobank USD->UAH на {{ datetime_of_currency_rate }} </td>
+    </tr>
+    <tr>
+        <td width="5%">#</td>
+        <td width="15%">order</td>
+        <td width="20%">price USD</td>
+        <td width="20%">price UAH</td>
+        <td width="20%" align="center">Delivery date</td>
+        <td width="20%" align="center">Order status</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rising-lyceum-359520",
+  "private_key_id": "227c3468a9a3392647c2e2487e2593397c3cbd22",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCOnCQb9C2v+MSA\nS+1Vyz8L9awNF/fOzSmULW9pbQ4xVLZ6TGmaivOEkXOsD3PJhih/04ZB5BFhzDhS\n8vgypb+nREr+4Rr32dW3FF4GccoL9U0vVlTfgiMLbpKgieLHDsIH88lMXvoYnN+i\nWh6L3JHK8xc4k42gHdTh1gbPYrHuZlCmkaHLtApnSDlMw6EmwOLiiHOKXEl6N7UK\njGwmYAQOJTwoOT2FFli7IPR1DD8a/Tig36XE1QsPl5kQjkoJxBQheOPSc36LOr6y\npgogY9tcTBF8es+XH+tmvNnQULx7zyEnilaqlJYJVIUQ2WScxIPo12qFw6Vr/TIH\nASwycn0bAgMBAAECggEAJjC1UNEavRHLGap7o+qadyryyMze3YA+vsJOIDcGwnoz\npdu5uhu07A8BoZW/xbuKM/Ui8plPeFe2y6vqgLG3eeVFii0hSjeJTo6DQYmOeJZX\n9bHSZ8qTdPfHB3v1gaY3muaTxUJ4CkhUcUdd/8lxN57S3KFTH4ptnI7y4u3ExZk1\nW0WRvh5M+AvuUSBXXTsJsKfn99kb4wR/W4lIV7nM/l+YMKVC9cT9XIJVXZ45BIbW\nGf/Ahed7DNwkj1IDlfHSuXBrpvaGwpGY1pFLX4LCx0TvsEBeQTu4m7tKWIsYf4S5\neFA4SbaCvrfYHgq5enYDgZomW4mSDbr2MVH4lIx42QKBgQDG7eNl3fwOBj0sHkFj\nt+Gg7E/dG3zR80onu5T7MDbdVgAWv7pOzWlIyiEy4UWOCNAQbvGu/6yLomM/UEbg\nFFQgeJ+r3KBmm5Dvw4MI9XQikbdKBHU310a1eYmbBFlG/nTIJr0P6nNNEPZNkWrR\nDkUarIW+3tNtWWquxBFfaj+CMwKBgQC3hfMtR/FWr6puwdC3ImOq5sIKoBJtuvtB\n/3uYtahBLxbZtyd0sZ+VG9J1rV3oYRlCWdrZGVYypyk6xRsjVOR+y9FGYXSisE0+\ncCUZPP4V1on4oTwwm2AWOxfsdz3u01vdZZHdOcFI5Ne9OJK4rTARgsbYI1ywp5Ku\nfd750yVBeQKBgHan4LKbVUQ8PnK5XUGQpfmp2v1E7xAAMSRABF5L5P3i1Uy8cfGd\nHoa3YlQKAMX2xbx3oJtEj/P+GXrjdFMmbQOtT3hgsiBh/HK3SMqoNeyExDJXNF/p\nfZizdPvM/T+WeawFR1JeAwZd7rxX18H45AlEDMbL/IrGAhdahg5Gvrj3AoGAc7VY\npOv/FZCb/EjmtxBPlqj3HoveEqEZWXsjCh0+gBqYZZw8nC6BVxm7j8ZGtwTBUDwm\n50o6NqV+MTek7JnRlsAaqi03xHszuHIsccUqzcn+I2xE7sCHzHxlkQl9Wt6XxPcN\nCFYprzPZccwBdb572A6EIDHrdtWwfaOOuiSOEMECgYBgjf9aswPrMJwd/o6y4ulg\n7h9KAGCKp1jSVJ51vF2Z1UNkTa/I2/mjR+Rbj8QD9LzXLgkToJpi4l/wgvM3KBGh\nfN4aS9JZ0uk+2HYGX00c3RsmSIRGPmxUUUq4zP98ZQ9WjSTgu88LCLk2sritxccw\nt+N9NoO+DFAPZk7WZTeRZQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-sheets-test@rising-lyceum-359520.iam.gserviceaccount.com",
+  "client_id": "107896124414159886791",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-sheets-test%40rising-lyceum-359520.iam.gserviceaccount.com"
+}
