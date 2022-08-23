@@ -12,5 +12,5 @@ class OrderView(generics.ListAPIView):
 
 def order_view(request):
     return TemplateResponse(request, 'orders/orders_js.html', {
-        'datetime_of_currency_rate': ExchangeRate.objects.first().date_of_rate
+        'current_data': ExchangeRate.objects.first()
     })
