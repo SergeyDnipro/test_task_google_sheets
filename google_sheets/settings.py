@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 from environ import Env
+import json
 
 env = Env(
     DEBUG=(bool, False),
@@ -144,7 +145,7 @@ TELEGRAM_BOT_TOKEN = env('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = env('TELEGRAM_CHAT_ID')
 
 # Google service account credentials
-SERVICE_ACCOUNT = env('SERVICE_ACCOUNT')
+SERVICE_ACCOUNT = json.loads(env('SERVICE_ACCOUNT_3'))
 
 CORS_ALLOWED_ORIGINS = []
 

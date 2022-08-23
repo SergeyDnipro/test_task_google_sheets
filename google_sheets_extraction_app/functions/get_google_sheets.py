@@ -24,7 +24,7 @@ def list_to_dict(lst):  # Transformation "list" get_google_sheets fields to name
 
 
 def get_google_sheets():
-    creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT, scopes=SCOPES)
+    creds = service_account.Credentials.from_service_account_info(SERVICE_ACCOUNT)
     service = build('sheets', 'v4', credentials=creds)
 # Call the Sheets API
     sheet = service.spreadsheets()
